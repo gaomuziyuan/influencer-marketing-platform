@@ -1,0 +1,24 @@
+.visit-title-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .visit-title {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #4e4e4e;
+  }
+
+  div {
+    span {
+      font-weight: 400;
+    }
+
+    .visit-period-select {
+      margin-left: 10px;
+      width: 160px;
+      height: 40px;
+      font-size: 0.9rem;
+    }
+  }
+}

@@ -1,0 +1,50 @@
+export const summaryNumItems = [
+  {
+    title: "Sales Amount",
+    dataKey: "salesAmount",
+    unit: "$",
+    iconColor: "#C4C9FE",
+    iconSrc: "/images/Sales_B.png",
+  },
+  {
+    title: "Visits",
+    dataKey: "visits",
+    iconColor: "#C4E2FE",
+    iconSrc: "/images/Visit_B.png",
+  },
+  {
+    title: "CTR",
+    dataKey: "ctr",
+    unit: "%",
+    iconColor: "#BFF4E8",
+    iconSrc: "/images/CTR_B.png",
+    toFixedVal: 2,
+  },
+  {
+    title: "Conversion",
+    dataKey: "conversion",
+    unit: "%",
+    iconColor: "#FFC2C2",
+    iconSrc: "/images/Conversion_B.png",
+    toFixedVal: 2,
+  },
+  {
+    title: "Avg Order / Customers",
+    dataKey: "orderByCustomer",
+    iconColor: "#F0F4A1",
+    iconSrc: "/images/Average_B.png",
+    toFixedVal: 2,
+  },
+  {
+    title: "Orders",
+    dataKey: "oders",
+    iconColor: "#F9D5E5",
+    iconSrc: "/images/Consumer_B.png",
+  },
+  {
+    title: "Customers",
+    dataKey: "customers",
+    iconColor: "#FFDB95",
+    iconSrc: "/images/Customers_B.png",
+  },
+];
